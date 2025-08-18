@@ -28,76 +28,76 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_DEL, LT(7,KC_SPC), KC_BSPC, KC_ENT
     ),
     [1] = LAYOUT_split_3x5_2(
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        _______, _______, _______, _______, _______,
         KC_PGUP, KC_LCBR, KC_LT, KC_GT, KC_RCBR,
-        KC_TRNS, KC_TRNS, KC_NO, KC_TRNS, KC_TRNS,
-        KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        _______, _______, KC_NO, _______, _______,
+        KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, _______,
+        _______, _______, _______, _______, _______,
         KC_PGDN, KC_LBRC, KC_LPRN, KC_RPRN, KC_RBRC,
-        KC_TRNS, KC_HOME, KC_END, KC_TRNS
+        _______, KC_HOME, KC_END, _______
     ),
     [2] = LAYOUT_split_3x5_2(
-        KC_TRNS, KC_TRNS, KC_PGUP, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_LEFT, KC_UP, KC_DOWN, KC_RGHT, KC_TRNS,
-        KC_TRNS, KC_LGUI, KC_NO, LCTL(KC_LALT), LCA(KC_LSFT),
-        KC_TRNS, KC_HOME, KC_PGDN, KC_END, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+        _______, _______, KC_PGUP, _______, _______,
+        _______, _______, _______, _______, _______,
+        KC_LEFT, KC_UP, KC_DOWN, KC_RGHT, _______,
+        _______, KC_LGUI, KC_NO, LCTL(KC_LALT), LCA(KC_LSFT),
+        _______, KC_HOME, KC_PGDN, KC_END, _______,
+        _______, _______, _______, _______, _______,
+        _______, _______, _______, _______
     ),
     [3] = LAYOUT_split_3x5_2(
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        _______, _______, _______, _______, _______,
         KC_EQL, KC_UNDS, KC_PIPE, KC_QUOT, KC_AT,
-        KC_CIRC, KC_ASTR, KC_AMPR, KC_NO, KC_TRNS,
+        KC_CIRC, KC_ASTR, KC_AMPR, KC_NO, _______,
         KC_HASH, KC_TILD, KC_SLSH, KC_DQUO, KC_DLR,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        _______, _______, _______, _______, _______,
         KC_PERC, KC_MINS, KC_BSLS, KC_GRV, KC_EXLM,
-        RGB_RMOD, KC_TRNS, KC_TRNS, RGB_MOD
+        RGB_RMOD, _______, _______, RGB_MOD
     ),
     [4] = LAYOUT_split_3x5_2(
-        KC_TRNS, KC_COLN, KC_LT, KC_GT, KC_SCLN,
-        KC_TRNS, KC_TRNS, KC_MINS, KC_TRNS, KC_TRNS,
+        _______, KC_COLN, KC_LT, KC_GT, KC_SCLN,
+        _______, _______, KC_MINS, _______, _______,
         KC_LCBR, KC_RCBR, KC_LPRN, KC_RPRN, KC_AT,
-        KC_TRNS, KC_NO, KC_EQL, KC_PLUS, KC_PERC,
-        KC_TRNS, KC_EXLM, KC_LBRC, KC_RBRC, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_VOLD, KC_TRNS, KC_TRNS, KC_VOLU
+        _______, KC_NO, KC_EQL, KC_PLUS, KC_PERC,
+        _______, KC_EXLM, KC_LBRC, KC_RBRC, _______,
+        _______, _______, _______, _______, _______,
+        KC_VOLD, _______, _______, KC_VOLU
     ),
     [5] = LAYOUT_split_3x5_2(
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_CAPS,
-        KC_TRNS, KC_F7, KC_F8, KC_F9, KC_F10,
-        KC_TRNS, KC_NO, LCTL(KC_LALT), KC_DEL, KC_NUM,
-        KC_TRNS, KC_F1, KC_F2, KC_F3, KC_F11,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_F4, KC_F5, KC_F6, KC_F12,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+        _______, _______, _______, _______, KC_CAPS,
+        _______, KC_F7, KC_F8, KC_F9, KC_F10,
+        _______, KC_NO, LCTL(KC_LALT), KC_DEL, KC_NUM,
+        _______, KC_F1, KC_F2, KC_F3, KC_F11,
+        _______, _______, _______, _______, _______,
+        _______, KC_F4, KC_F5, KC_F6, KC_F12,
+        _______, _______, _______, _______
     ),
     [6] = LAYOUT_split_3x5_2(
         KC_SLSH, KC_7, KC_8, KC_9, KC_PLUS,
-        KC_CIRC, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_CIRC, _______, _______, _______, _______,
         KC_0, KC_1, KC_2, KC_3, KC_MINS,
-        KC_COMM, KC_DOT, KC_COLN, KC_NO, KC_TRNS,
+        KC_COMM, KC_DOT, KC_COLN, KC_NO, _______,
         KC_ASTR, KC_4, KC_5, KC_6, KC_EQL,
-        KC_PERC, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+        KC_PERC, _______, _______, _______, _______,
+        _______, _______, _______, _______
     ),
     [7] = LAYOUT_split_3x5_2(
-        KC_ESC, KC_NUM, KC_COLN, KC_ESC, KC_TRNS,
-        KC_MUTE, KC_VOLD, KC_VOLU, KC_TRNS, KC_PSCR,
-        KC_TRNS, KC_PERC, KC_SLSH, KC_ENT, KC_TRNS,
-        KC_MEDIA_PLAY_PAUSE, KC_MEDIA_NEXT_TRACK, KC_MEDIA_PREV_TRACK, KC_TRNS, KC_TRNS,
-        KC_DEL, KC_TRNS, KC_TRNS, KC_EXLM, KC_TRNS,
-        DF(0), KC_TRNS, RALT_T(KC_COMM), RCTL_T(KC_DOT), KC_TRNS,
-        KC_TRNS, KC_NO, KC_TAB, KC_DEL
+        KC_ESC, KC_NUM, KC_COLN, KC_ESC, _______,
+        KC_MUTE, KC_VOLD, KC_VOLU, _______, KC_PSCR,
+        _______, KC_PERC, KC_SLSH, KC_ENT, _______,
+        KC_MEDIA_PLAY_PAUSE, KC_MEDIA_NEXT_TRACK, KC_MEDIA_PREV_TRACK, _______, _______,
+        KC_DEL, _______, _______, KC_EXLM, _______,
+        DF(0), _______, RALT_T(KC_COMM), RCTL_T(KC_DOT), _______,
+        _______, KC_NO, KC_TAB, KC_DEL
     ),
     [8] = LAYOUT_split_3x5_2(
-        KC_TRNS, KC_TRNS, KC_SCLN, KC_TRNS, QK_BOOT,
-        KC_TRNS, KC_RBRC, KC_GRV, KC_EQL, KC_TRNS,
-        LSFT_T(KC_QUOT), KC_TRNS, KC_TRNS, KC_TRNS, DF(11),
-        KC_TRNS, KC_MINS, KC_TRNS, KC_0, KC_RSFT,
-        KC_NO, KC_TRNS, KC_TRNS, KC_TRNS, DF(9),
-        KC_TRNS, KC_BSLS, KC_TRNS, KC_LBRC, KC_NO,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+        _______, _______, KC_SCLN, _______, QK_BOOT,
+        _______, KC_RBRC, KC_GRV, KC_EQL, _______,
+        LSFT_T(KC_QUOT), _______, _______, _______, DF(11),
+        _______, KC_MINS, _______, KC_0, KC_RSFT,
+        KC_NO, _______, _______, _______, DF(9),
+        _______, KC_BSLS, _______, KC_LBRC, KC_NO,
+        _______, _______, _______, _______
     ),
     [9] = LAYOUT_split_3x5_2(
         KC_TAB, KC_Q, KC_W, KC_E, KC_R,
