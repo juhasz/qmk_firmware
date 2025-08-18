@@ -29,11 +29,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [1] = LAYOUT_split_3x5_2(
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_LCBR, KC_LT, KC_GT, KC_RCBR,
+        KC_PGUP, KC_LCBR, KC_LT, KC_GT, KC_RCBR,
         KC_TRNS, KC_TRNS, KC_NO, KC_TRNS, KC_TRNS,
         KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_LBRC, KC_LPRN, KC_RPRN, KC_RBRC,
+        KC_PGDN, KC_LBRC, KC_LPRN, KC_RPRN, KC_RBRC,
         KC_TRNS, KC_HOME, KC_END, KC_TRNS
     ),
     [2] = LAYOUT_split_3x5_2(
