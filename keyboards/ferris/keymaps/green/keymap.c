@@ -93,38 +93,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [8] = LAYOUT_split_3x5_2(
         _______, _______, KC_SCLN, _______, QK_BOOT,
         _______, KC_RBRC, KC_GRV, KC_EQL, _______,
-        LSFT_T(KC_QUOT), _______, _______, _______, DF(11),
+        LSFT_T(KC_QUOT), _______, _______, _______, _______,
         _______, KC_MINS, _______, KC_0, KC_RSFT,
-        KC_NO, _______, _______, _______, DF(9),
+        KC_NO, _______, _______, _______, _______,
         _______, KC_BSLS, _______, KC_LBRC, KC_NO,
         _______, _______, _______, _______
-    ),
-    [9] = LAYOUT_split_3x5_2(
-        KC_TAB, KC_Q, KC_W, KC_E, KC_R,
-        KC_ESC, KC_NO, KC_NO, DF(0), KC_ESC,
-        KC_LSFT, KC_A, KC_S, KC_D, KC_F,
-        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-        KC_LCTL, KC_Z, KC_X, KC_C, KC_M,
-        KC_NO, KC_NO, KC_NO, KC_NO, KC_PSCR,
-        LT(10,KC_ENT), KC_SPC, KC_BSPC, KC_ESC
-    ),
-    [10] = LAYOUT_split_3x5_2(
-        KC_ESC, KC_7, KC_8, KC_9, KC_I,
-        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-        KC_0, KC_1, KC_2, KC_3, KC_NO,
-        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-        KC_NO, KC_4, KC_5, KC_6, KC_NO,
-        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-        KC_NO, KC_NO, KC_NO, KC_NO
-    ),
-    [11] = LAYOUT_split_3x5_2(
-        KC_1, KC_Q, KC_W, KC_E, KC_R,
-        KC_TAB, KC_BSPC, KC_DEL, DF(0), KC_ESC,
-        KC_3, KC_A, KC_S, KC_D, KC_F,
-        KC_4, KC_5, KC_6, KC_7, KC_8,
-        KC_2, KC_Z, KC_X, KC_C, KC_V,
-        KC_9, KC_0, KC_N, KC_M, KC_ENT,
-        KC_LCTL, KC_SPC, KC_LALT, KC_LSFT
     )
 };
 
